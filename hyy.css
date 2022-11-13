@@ -1,0 +1,381 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #D2D4C8;
+    margin: 0%;
+}
+
+
+.head {
+    font-family: marker felt, fantasy float: left;
+    width: 25px;
+    text-align: center;
+}
+
+nav {
+    word-spacing: 20px;
+}
+
+.container {
+    min-height: 50px;
+    width: 525px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #889696;
+    border-radius: 10%;
+    margin-left: 8px;
+}
+
+.containerb {
+    min-height: 50px;
+    width: 525px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #889696;
+    border-radius: 10%;
+    margin-left: 8px;
+    padding: auto;
+}
+
+.containerc {
+    min-height: 50px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0% 0% 0% -10%;
+
+
+}
+
+.timeline {
+    width: 80%;
+    height: auto;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.timeline ul {
+    list-style: none;
+}
+
+.timeline ul li h1 {
+    padding: 20px;
+    background-color: #d2d4c8;
+    color: black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 350px;
+}
+
+.timeline ul li:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-content h1 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 10px;
+
+}
+
+.timeline-content p {
+    font-size: 10px;
+    line-height: 40px;
+    font-weight: 200px;
+
+}
+
+@media only screen and (min-width: 768px) {
+    .timeline::before {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 2px;
+        left: 5%;
+        transform: translateX(50%);
+        background-color: #aea3b0;
+    }
+
+    .timeline ul li {
+        width: 50%;
+        margin-bottom: 50px;
+        position: relative;
+    }
+
+
+
+}
+
+footer {
+    text-align: center;
+    font-size: 23px;
+    background-color: #889696;
+    height: 150px;
+    width: auto;
+}
+
+.content {
+    background-color: #e0e2db;
+    padding: 30px;
+    margin: 30px;
+    width: 100;
+    align-content: center;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+
+.contenta {
+    float: right;
+    font-size: 23px;
+    margin: 2% 5% 0% 0%;
+}
+
+.contentd {
+    float: right;
+    font-size: 23px;
+    margin: 10% 5% 0% 0%;
+}
+
+.contentb {
+    background-color: #b8bdb5;
+    padding: 20px;
+    margin: 20px;
+    width: 300;
+    align-content: center;
+    font-size: 20px;
+}
+
+nav {
+    background-color: #B8BDB5;
+    font-family: Arial, Helvetica;
+    text-align: center;
+    padding: 20px;
+}
+
+
+header {
+    background-color: #889696;
+    color: black;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: #5f7470;
+    color: black;
+}
+
+nav a {
+    padding: 14px 16px;
+    display: inline-block;
+}
+
+.contentc {
+    margin: 10px;
+    background-color: #B8BDB5;
+}
+
+.card {
+    background-color: #B8BDB5;
+    padding: 20px;
+    margin: 20px 20px 0px 30px;
+    border-radius: 15px;
+    background-size: cover;
+    text-align: center;
+    font-size: 25px;
+}
+
+aside {
+    float: right;
+    width: 30%;
+    text-align: center;
+}
+
+article {
+    float: left;
+    width: 65%;
+
+}
+
+.clearfix {
+    clear: both;
+}
+
+.card1 {
+    background-color: #B8BDB5;
+    padding: 20px;
+    margin: 20px 40px 0px 0px;
+    border-radius: 15px;
+    background-size: cover;
+    text-align: center;
+    font-size: 20px;
+}
+
+.skill {
+    position: absolute;
+    width: 800px;
+    height: 60vh;
+    top: 1100px;
+    left: calc(40% - 550px);
+    background-color: #EED0A9;
+    border-radius: 20px;
+    display: block;
+}
+
+.skill_h1 {
+    position: relative;
+    top: 0.5px;
+    color: #BB848B;
+    text-align: center;
+    mix-blend-mode: initial;
+    font-size: 3.0em;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    margin: 20px 50px 20px 175px;
+    padding: 5px 10px 15px 20px;
+    background-color: #DDE7C7;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 2px solid #000;
+    transition: 0.5s;
+    width: 70%;
+    opacity: 0.4;
+}
+
+.skill-item {
+    position: relative;
+    width: 130px;
+    text-align: center;
+    color: #546A7B;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.loading {
+    position: relative;
+    width: calc(100% - 150px);
+    height: 25px;
+    margin: 0 10px;
+    margin-top: 8px;
+    border-radius: 8px;
+    background-color: #151515;
+    box-shadow: inset 0 0 10px #000;
+    overflow: hidden;
+}
+
+.process {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #bfdea8, #B8B794);
+    box-shadow: inset 0 0 2px #000;
+    animation: animate 3s ease-in-out infinite forwards;
+    z-index: 1;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: 40px 0px 0px 0px;
+}
+
+.mySlides {
+    display: none;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.cc {
+    border-radius: 10px;
+}
+
+.logo {
+    width: 3%;
+    margin: 1px 3px 0px 3px;
+    transition: all 0.4s;
+    overflow: hidden;
+}
+
+.box08 {
+    width: 100%;
+    height: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.picspace {
+    height: 510px;
+    position: relative;
+    top: 20px;
+}
+
+.picspace {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    top: 60px;
+}
+
+.picspace img {
+    min-width: 35%;
+    height: 300px;
+    object-fit: cover;
+    transform: translateX(0);
+    animation: start 5s linear infinite;
+}
+
+@keyframes start {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-300%);
+    }
+}
+
+.card4 {
+    background-color: #B8BDB5;
+    padding: 20px;
+    margin: -20px 20px 0px 30px;
+    border-radius: 15px;
+    background-size: cover;
+    text-align: center;
+    font-size: 25px;
